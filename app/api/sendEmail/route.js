@@ -22,7 +22,7 @@ export async function POST(req, res) {
 
   try {
     const data = {
-      from: '"Frank Vidal" <frananyelvidal@gmail.com>',
+      from: `"Frank Vidal" <${env.MAILER_USER}>`,
       to: [env.MAILER_USER, email],
       subject,
       text: message || "", // Asegúrate de tener un valor predeterminado
