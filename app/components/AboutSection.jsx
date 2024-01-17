@@ -74,10 +74,12 @@ const AboutSection = () => {
           alt="About-Image"
           width={500}
           height={500}
-          className="rounded "
+          className="rounded mx-auto lg:mx-0"
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold text-white mb-4 mt-6 text-center  lg:text-justify lg:mt-0">
+            About Me
+          </h2>
 
           <p className="text-base md:text-lg">
             I am a Full Stack developer, passionate about technology, video
